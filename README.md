@@ -53,6 +53,7 @@ conda env create -f environment.yml
 conda activate mdm
 python -m spacy download en_core_web_sm
 pip install git+https://github.com/openai/CLIP.git
+pip install gdown
 ```
 
 Download dependencies:
